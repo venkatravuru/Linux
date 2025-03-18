@@ -52,7 +52,7 @@ Linux follows a hierarchical directory structure where everything starts from **
 
 ---
 
-This content will help students understand Linux fundamentals before moving to hands-on practice. 🚀
+
 
 
 
