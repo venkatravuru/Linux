@@ -30,7 +30,11 @@ Other distros: Fedora, Arch Linux, Kali Linux (for penetration testing), etc.
 ## 3. Linux Directory Structure  
 Linux follows a hierarchical directory structure where everything starts from **`/` (root directory)**.
 
-/ ├── bin ├── boot ├── dev ├── etc ├── home │ ├── user1 │ ├── user2 │ └── ... ├── lib ├── opt ├── proc ├── root ├── sbin ├── tmp
+
+## 📌 Linux File System Diagram
+![Linux Directory Structure](https://media.geeksforgeeks.org/wp-content/uploads/20210501124411/dir.png)
+
+
 
 
 ### **Key Directories Explained**
