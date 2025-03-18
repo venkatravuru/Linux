@@ -52,6 +52,66 @@ Linux follows a hierarchical directory structure where everything starts from **
 
 ---
 
+# 📌 Linux Interview Questions (IQ)
+
+## 🔹 1. What is the difference between `/bin` and `/sbin`?
+
+### 📌 `/bin` (Binary Executables)
+- Contains **basic commands** that are **available to all users**.
+- These commands are essential for basic system operations.
+- Located in **`/bin`**, meaning they can be executed without requiring superuser privileges.
+
+**✅ Examples:**
+- `ls` - List directory contents.
+- `cat` - View file contents.
+- `cp` - Copy files.
+- `mv` - Move or rename files.
+- `rm` - Remove files.
+
+### 📌 `/sbin` (System Binaries)
+- Contains **system administration commands**, primarily used by the **root user**.
+- These commands are used for system maintenance and management.
+- Located in **`/sbin`**, requiring **root privileges** (`sudo`) for execution.
+
+**✅ Examples:**
+- `shutdown` - Power off the system.
+- `reboot` - Restart the system.
+- `ifconfig` - Configure network interfaces.
+- `mount` - Mount filesystems.
+- `fsck` - File system consistency check.
+
+---
+
+## 🔹 2. In which directory are all external software packages installed?
+
+### 📌 Answer: **`/opt`**  
+- The **`/opt`** directory is used to store **optional (third-party) software**.
+- This includes **software not part of the default Linux distribution**.
+- Typically used for **commercial software, large applications, or manually installed packages**.
+
+**✅ Examples of software stored in `/opt`:**
+- Google Chrome (`/opt/google/chrome`)
+- VirtualBox (`/opt/VirtualBox`)
+- Custom enterprise applications
+
+**💡 Why `/opt`?**
+- Keeps the system clean by separating **non-default software** from system files.
+- Avoids conflicts with **default Linux package manager installations (`/usr/bin`, `/usr/sbin`)**.
+- Easier to manage, upgrade, and remove third-party applications.
+
+---
+
+### 📌 Summary
+| **Directory** | **Purpose** | **Access Level** | **Examples** |
+|--------------|------------|----------------|-------------|
+| `/bin` | Essential user commands | All users | `ls`, `cp`, `mv`, `rm` |
+| `/sbin` | System administration commands | Root user (sudo required) | `shutdown`, `reboot`, `mount` |
+| `/opt` | External software packages | Varies (depends on software) | Google Chrome, VirtualBox |
+
+---
+
+
+
 
 
 
