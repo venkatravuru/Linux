@@ -31,3 +31,22 @@ Other distros: Fedora, Arch Linux, Kali Linux (for penetration testing), etc.
 Linux follows a hierarchical directory structure where everything starts from **`/` (root directory)**.
 
 
+### **Key Directories Explained**
+- **`/` (Root Directory):** The top-most directory that contains all files and subdirectories.  
+- **`/bin`** - Essential binary executables (commands) like `ls`, `cp`, `mv`.  
+- **`/sbin`** - System binaries used for system administration (e.g., `reboot`, `fdisk`).  
+- **`/etc`** - System and application configuration files (e.g., `/etc/passwd` for user details).  
+- **`/home`** - User home directories (`/home/user1`, `/home/user2`). Each user stores personal files here.  
+- **`/dev`** - Represents hardware devices as files (e.g., `/dev/sda` for hard drives).  
+- **`/root`** - Home directory for the **root (admin)** user.  
+- **`/opt`** - Optional software packages installed manually.  
+- **`/lib`** - Shared libraries required by system binaries (`/bin`, `/sbin`).  
+- **`/proc`** - A virtual filesystem that provides system information (`/proc/cpuinfo`).  
+- **`/tmp`** - Temporary file storage, often cleared on reboot.  
+
+---
+
+This content will help students understand Linux fundamentals before moving to hands-on practice. 🚀
+
+
+
