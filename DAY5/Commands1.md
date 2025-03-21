@@ -115,6 +115,7 @@ find . -mtime -1                     # Modified less than 1 day ago
 find . -mtime +1                     # Modified more than 1 day ago
 
 find ./ -type f -name "*.txt"        # Find all .txt files
+
 ```
 
 ### Use Case
@@ -140,6 +141,8 @@ sed -n 's/am/was/p' sed.txt          # Print only replaced lines
 sed '1,3 s/unix/linux/' abc.txt      # Replace in line range
 sed '5d' filename.txt                # Delete line 5
 sed '3,6d' filename.txt              # Delete lines 3 to 6
+sed -n '60,80p' filename             # To display lines 60 to 80 of a file using sed
+
 ```
 
 ### Use Case
