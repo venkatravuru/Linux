@@ -1,9 +1,9 @@
-
+Sure! Here's the **complete `.md` file content** that you can directly **copy-paste into your GitHub repo** (like in your `part-1.md` or any Linux interview questions file):
 
 ---
 
 ```markdown
-# 🔗 IQ1]  Difference Between Soft Link and Hard Link in Linux
+# 🔗 IQ1] Difference Between Soft Link and Hard Link in Linux
 
 ## 📋 Summary Table
 
@@ -18,6 +18,7 @@
 | **Symbol in `ls -l`**      | Starts with `l` (e.g., `lrwxrwxrwx`)       | Appears as a normal file                  |
 | **Common Usage**           | Shortcuts to scripts, configs, resources   | Duplicate reference without extra space   |
 
+---
 
 ## 💻 Example Commands
 
@@ -37,8 +38,8 @@ ln original.txt hardlink.txt
 ## 🧪 Behavior on Deletion
 
 - If `original.txt` is deleted:
-  - `softlink.txt` → ❌ Broken (dangling link)
-  - `hardlink.txt` → ✅ Still accessible (data is preserved)
+  - `softlink.txt` → Broken (dangling link)
+  - `hardlink.txt` → Still accessible (data is preserved)
 
 ---
 
@@ -68,3 +69,4 @@ ln original.txt hardlink.txt
 
 ---
 
+✅ Just copy all of this and paste it into your GitHub `.md` file (`part-1.md` or any other file in your `Linux-Interview-Questions` folder). Let me know when you’re ready for the next topic!
