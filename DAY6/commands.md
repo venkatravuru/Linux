@@ -1,5 +1,4 @@
 
-
 ## 1. `who`
 **Purpose:** Display users currently logged into the system.
 
@@ -106,18 +105,9 @@ timedatectl
 
 ```bash
 df       # Raw format
-
-# Human readable
-
+df -h    # Human readable
+df -Th   # Show filesystem type with readable format
 ```
-df -h
-
-```bash
-# Show filesystem type with readable format
-
-```
-df -Th
-
 **Use case:** Monitor disk space to avoid application failure due to full partitions.
 
 > NOTE: Clean up the `/tmp` directory weekly.
@@ -129,7 +119,6 @@ df -Th
 
 ```bash
 du -h Ansible/       # Shows size of each file/folder
-
 du -sh Ansible/      # Shows only the total summary
 ```
 **Use case:** Identify what's using space in a directory.
@@ -228,5 +217,44 @@ kill -9 <tomcat-pid>
 **Use case:** Kill hung or zombie processes.
 
 > NOTE: `kill` can be used for other purposes like signaling.
+
+---
+
+## 18. `top`
+**Purpose:** Monitor system resource utilization in real time.
+
+```bash
+top
+```
+**Use case:** View current CPU and memory usage. Identify resource-hungry processes.
+
+> NOTE: Use `df -h` for disk usage. `top` is focused on CPU and memory.
+
+---
+
+## 19. `zip` and `unzip`
+**Purpose:** Compress and extract directories/files.
+
+```bash
+zip -r ansible.zip Ansible/    # Compress
+rm -r Ansible/                 # Remove original (optional)
+unzip ansible.zip              # Extract
+```
+**Use case:** Create backups or transfer files efficiently.
+
+---
+
+## 20. `tar`
+**Purpose:** Archive files and directories.
+
+```bash
+tar -cvf ansible.tar Ansible   # Create archive
+
+tar -xvf ansible.tar           # Extract archive
+```
+**Use case:** Used for packaging and backups. Often used before compressing with gzip (`.tar.gz`).
+
+---
+
 
 
