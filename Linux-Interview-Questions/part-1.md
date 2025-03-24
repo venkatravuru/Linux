@@ -7,18 +7,17 @@
 
 ## 📋 Summary Table
 
-| Feature                     | **Soft Link (Symbolic Link)**                           | **Hard Link**                                     |
-|-----------------------------|----------------------------------------------------------|---------------------------------------------------|
-| **Command**                | `ln -s source target`                                    | `ln source target`                                |
-| **Points To**              | File **name/path**                                       | File’s **inode (actual data)**                    |
-| **Across Filesystems?**   | ✅ Yes                                                    | ❌ No                                              |
-| **Can Link Directories?** | ✅ Yes (requires root, not common)                        | ❌ No                                              |
-| **If Original is Deleted**| ❌ Link becomes **broken**                                | ✅ File still works (data is retained)            |
-| **Storage Usage**         | Uses small space for path info                           | Shares same inode; no extra space used            |
-| **Symbol in `ls -l`**     | Starts with `l` (e.g., `lrwxrwxrwx`)                     | Appears as a normal file                          |
-| **Common Usage**          | Shortcuts to scripts, config files, shared resources     | Duplicate reference without extra space           |
+| Feature                     | Soft Link (Symbolic Link)                 | Hard Link                                |
+|----------------------------|--------------------------------------------|-------------------------------------------|
+| **Command**                | `ln -s source target`                      | `ln source target`                        |
+| **Points To**              | File name/path                             | File’s inode (actual data)                |
+| **Across Filesystems?**    | Yes                                        | No                                        |
+| **Can Link Directories?**  | Yes (requires root, not common)            | No                                        |
+| **If Original is Deleted** | Link becomes broken                        | File still works                          |
+| **Storage Usage**          | Uses small space for path info             | Shares same inode; no extra space used    |
+| **Symbol in `ls -l`**      | Starts with `l` (e.g., `lrwxrwxrwx`)       | Appears as a normal file                  |
+| **Common Usage**           | Shortcuts to scripts, configs, resources   | Duplicate reference without extra space   |
 
----
 
 ## 💻 Example Commands
 
