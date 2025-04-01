@@ -1,4 +1,4 @@
-# 🐧 Essential Linux Commands with Real-World Use Cases
+#  Essential Linux Commands with Real-World Use Cases
 
 This guide is designed for trainers and students to understand and practically apply the most common Linux commands used in real-time environments.
 
