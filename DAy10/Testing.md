@@ -1,8 +1,3 @@
-Absolutely! Below is the **full markdown content** you can **copy and paste directly** into your GitHub `.md` file. It’s formatted properly for GitHub Markdown.
-
----
-
-```markdown
 # 🐧 Essential Linux Commands with Real-World Use Cases
 
 This guide is designed for trainers and students to understand and practically apply the most common Linux commands used in real-time environments.
@@ -25,7 +20,7 @@ This guide is designed for trainers and students to understand and practically a
 - Find error messages in logs:
   ```bash
   grep "ERROR" /var/log/syslog
-  ```
+
 - Search recursively in config files:
   ```bash
   grep -r "nginx" /etc/
