@@ -92,4 +92,3 @@ This scenario shows creative use of `/proc` and `lsof` for emergency recovery. I
 ---
 ```
 
-Let me know if you'd like this in `.md` file form for GitHub, or bundled with the previous 5 for a complete set of 10.
