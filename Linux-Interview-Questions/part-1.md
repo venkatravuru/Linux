@@ -1,13 +1,4 @@
-Here's your content in **Markdown (`.md`) format**, ready to use for GitHub or documentation:
 
----
-
-```markdown
-# 🐧 Linux Scenario-Based Interview Questions and Answers
-
-These are real-time scenario-based Linux questions, ideal for interviews and practical troubleshooting.
-
----
 
 ## ✅ 1. Scenario: Server Disk Full Suddenly
 
