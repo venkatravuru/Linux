@@ -90,7 +90,4 @@ grep CRON /var/log/cron
 **Explanation:**  
 I verify cron syntax, service status, and logs. Adding logs to the script helps in debugging silently failing jobs. This shows my command over automation and job scheduling.
 
----
-```
 
-Would you like me to generate a downloadable `.md` file for you?
